@@ -1,0 +1,396 @@
+body {
+  background-color: #f8f9fa;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+.image-side {
+  background: url("../img/Image.png") no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.login-side {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.login-header {
+  text-align: right;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+.login-header a {
+  color: #000;
+  transition: 0.3s ease-in;
+}
+
+.login-header a:hover {
+  color: #3874ce;
+  text-decoration: none;
+}
+
+.login-content {
+  padding: 40px;
+  padding-top: 80px;
+}
+
+.logo{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.login-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #908f8f;
+  padding: 20px;
+}
+
+.login-footer a{
+  font-weight: 600;
+  font-size: 14px;
+  color: #908f8f;
+  transition: 0.3s ease-in;
+}
+
+.login-footer a:hover{
+  color: #3874ce;
+  text-decoration: none;
+}
+
+.login-footer .login-footer-right{
+  font-weight: 600;
+  font-size: 14px;
+  color: #908f8f;
+}
+
+.login-footer-left {
+  font-size: 14px;
+}
+
+.login-footer-right {
+  font-size: 12px;
+}
+
+.login-form-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.login-form-heading {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.login-form-forgot-password {
+  text-align: right;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.login-form-forgot-password a{
+  color: #000;
+  text-decoration: none;
+  transition: 0.3s ease-in;
+}
+
+.login-form-forgot-password a:hover{
+  color: #3874ce;
+  text-decoration: none;
+}
+
+.login-form-remember-me {
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.login-form-remember-me input {
+  width: 15px;
+  height: 15px;
+  margin-top: 6px;
+}
+
+.form-check-label {
+  font-weight: 500;
+  transition: 0.3s ease-in;
+}
+
+.form-check-label:hover {
+  color: #3874ce;
+}
+
+
+.login-form-login-button {
+  width: 100%;
+  background-color: #ED572C;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  transition: 0.3s ease-in;
+}
+
+.login-form-login-button:hover {
+  background-color: #ee6a46;
+}
+
+.login-form-or-login-with {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.login-form-divider-line {
+  flex-grow: 1;
+  height: 1px;
+  background-color: #ddd;
+}
+
+.login-form-or-login-with-text {
+  margin: 0 10px;
+  font-weight: bold;
+  color: #555;
+  text-transform: capitalize;
+}
+
+.login-form-social-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.login-form-social-logos img {
+  width: 30px;
+  margin: 0 10px;
+  transition: 0.3s ease-in;
+}
+
+.login-form-social-logos img:hover {
+  width: 32px;
+  height: 32px;
+}
+
+.form-group {
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.form-group input{
+  outline: none;
+  border: 1px solid #d1d1d1;
+  box-shadow: #555;
+}
+
+.login-form-signup-text{
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.login-form-signup-text a{
+  font-weight: 700;
+  color: #000;
+  transition: 0.3s ease-in;
+}
+
+.login-form-signup-text a:hover{
+  color: #3874ce;
+  text-decoration: none;
+}
+
+
+
+/* Sign up */
+
+body {
+  background-color: #f8f9fa;
+  overflow-x: hidden;
+}
+
+.signup-side {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.signup-header {
+  text-align: left;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.signup-header a {
+  color: #000;
+  transition: 0.3s ease-in;
+}
+
+.signup-header a:hover {
+  color: #3874ce;
+  text-decoration: none;
+}
+
+.signup-content {
+  padding: 40px;
+  padding-top: 15px;
+}
+
+.logo{
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.signup-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #908f8f;
+  padding: 20px;
+}
+
+.signup-footer-left {
+  font-size: 14px;
+}
+
+.signup-footer-right {
+  font-size: 12px;
+}
+
+.signup-footer a{
+  font-weight: 600;
+  font-size: 14px;
+  color: #908f8f;
+  transition: 0.3s ease-in;
+}
+
+.signup-footer a:hover{
+  color: #3874ce;
+  text-decoration: none;
+}
+
+.signup-footer .signup-footer-right{
+  font-weight: 600;
+  font-size: 14px;
+  color: #908f8f;
+}
+
+.signup-form-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.signup-form-heading {  
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.signup-form-signup-button {
+  width: 100%;
+  background-color: #ED572C;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 25px;
+  transition: 0.3s ease-in;
+}
+
+.signup-form-signup-button:hover {
+  background-color: #ee6a46;
+}
+
+.signup-form-login-text {
+  text-align: center;
+}
+
+.signup-form-or-login-with {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.signup-form-divider-line {
+  flex-grow: 1;
+  height: 1px;
+  background-color: #ddd;
+}
+
+.signup-form-or-login-with-text {
+  margin: 0 10px;
+  font-weight: bold;
+  color: #555;
+  text-transform: capitalize;
+}
+
+.signup-form-social-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.signup-form-social-logos img {
+  width: 30px;
+  margin: 0 10px;
+  transition: 0.3s ease-in;
+}
+
+.signup-form-social-logos img:hover {
+  width: 32px;
+  height: 32px;
+}
+
+.signup-form-login-text{
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.signup-form-login-text a{
+  font-weight: 700;
+  color: #000;
+  transition: 0.3s ease-in;
+}
+
+.signup-form-login-text a:hover{
+  color: #3874ce;
+  text-decoration: none;
+}
+
+.g-recaptcha{
+  padding-top: 15px;
+  padding-top: 15px;
+}
